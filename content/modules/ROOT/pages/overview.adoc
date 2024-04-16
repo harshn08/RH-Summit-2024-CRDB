@@ -1,54 +1,12 @@
-:guid: %guid%
-:user: %user%
-:ssh_command: %ssh_password%
-:markup-in-source: verbatim,attributes,quotes
-:my_deep_var_underbars: %my_deep_var%
-:my_deep_var_dots: %my.deep.var%
-
-== Overview
-
-You can access ENV variables as flattened % surrounded variables in these templated asciddoc files.
-
-=== variables from ENV as asciidoc attributes
-
-NOTE: json objects are flattned and joined with a `.`.
-As a side-effect of the `.`, any character will match the `.` in the variable name.
-
-.Example: All of these function
-----
-:my_deep_var_underbars: %my_deep_var%
-:my_deep_var_dots: %my.deep.var%
-
-my_deep_var_underbars: {my_deep_var_underbars}
-my_deep_var_dots: {my_deep_var_dots}
-
-my_deep_var_underbars: %my_deep_var%
-my_deep_var_dots: %my.deep.var%
-----
-
 == Intro
 
-In this workshop you will... to be completed by the workshop developer.
-The following content is an example of what to include in an overview.
 
-=== Lab Access
+In the workshop today, we’ll be covering a brief introduction to OpenShift & CockroachDB and an overview of the problem statement (dual writes) and how you can overcome it with a transactional outbox pattern. You will also go through how to implement it with CockroachDB and Kafka on OpenShift in the following lab modules:
 
-You can access your lab environment as {user} with password "{ssh_password}" with the following command:
+Module 1: Application and Database Setup
+Module 2: Setting up Kafka (AMQ Streams)
+Module 3: Configuring the changefeed for CockroachDB
+Module 4: EDA Microservices
 
-[source,bash,options="nowrap",subs="{markup-in-source}"]
-----
-%ssh_command%
-----
 
-Your lab GUID is "{guid}".
 
-An example var was set to %example_var%.
-
-=== Workshop Information
-
-Informational messages generated for your workshop:
-
-[source,bash,options="nowrap"]
-----
-%user_info_messages%
-----
