@@ -23,9 +23,9 @@ spec:
 * Execute the following command which will substitute your correct username into
 the YAML before passing it to `oc`:
 +
-[source,yaml,role=execute]
+[source,yaml,role=execute,subs="attributes"]
 ----
-sed 's/userX/%user%/' ~/assets/kafkatopic.yaml | oc create -f -
+sed 's/userX/{user}/' ~/assets/kafkatopic.yaml | oc create -f -
 ----
 
 ## Test the Kafka Topic
@@ -53,9 +53,9 @@ TOPIC_NAME
 +
 with the value:
 +
-[source,role=copy]
+[source,role=copy,subs="attributes"]
 ----
-%user%-table-changes
+{user}-table-changes
 ----
 
 * Click the blue _Create_ button. 
@@ -93,9 +93,9 @@ TOPIC_NAME
 +
 with the value:
 +
-[source,role=copy]
+[source,role=copy,subs="attributes"]
 ----
-%user%-table-changes
+{user}-table-changes
 ----
 
 * Click the blue _Create_ button. 

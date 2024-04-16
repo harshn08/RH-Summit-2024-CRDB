@@ -1,7 +1,7 @@
-* xref:module-01.adoc[1. RPM Native Container]
-** xref:module-01.adoc#repositories[Repositories]
-** xref:module-01.adoc#software[Software]
+* xref:pages/overview.adoc[1. Overview]
+** xref:pages/setup.adoc#repositories[Module 1: Setting up the Application with CockroachDB]
+** xref:pages/kafka.adoc#software[Module 2: Setting up Kafka]
+** xref:pages/changefeed.adoc#prerequisites[Module 3: Configuring the Changefeed]
+** xref:pages/edamicro.adoc#container[Module 4: Setup OpenShift Pipelines]
 
-* xref:module-02.adoc[2. GitHub Sourced Container]
-** xref:module-02.adoc#prerequisites[Install Prerequisites]
-** xref:module-02.adoc#container[Enable Container]
+* xref:pages/variables-guide-delete-me.adoc[Variable Guide (Delete Me)]
