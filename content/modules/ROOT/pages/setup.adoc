@@ -7,7 +7,7 @@ as the correct user.
 +
 [source,bash,role=execute,subs="attributes"]
 ----
-oc login -u {user} -p {password}
+oc login --insecure-skip-tls-verify=false -u {user} -p {password} {openshift_api_server_url}
 ----
 +
 [NOTE]
