@@ -4,8 +4,11 @@
 In the workshop today, we’ll be covering a brief introduction to OpenShift & CockroachDB and an overview of the problem statement (dual writes) and how you can overcome it with a transactional outbox pattern. You will also go through how to implement it with CockroachDB and Kafka on OpenShift in the following lab modules:
 
 Module 1: Application and Database Setup
+
 Module 2: Setting up Kafka (AMQ Streams)
+
 Module 3: Configuring the changefeed for CockroachDB
+
 Module 4: EDA Microservices
 
 
