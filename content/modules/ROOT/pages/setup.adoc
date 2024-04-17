@@ -46,7 +46,7 @@ Console URL: {openshift_console_url}
 * In the OpenShift console's left-side menu, select the _Developer_ perspective
 from the drop-down menu if it is not already selected.
 +
-image::../assets/images/choose-developer-perspective.png[]
+image::choose-developer-perspective.png[]
 +
 * Then, make sure to select the `{user}-eda` from the drop-down menu labeled
 _Project_ at the top-left.
