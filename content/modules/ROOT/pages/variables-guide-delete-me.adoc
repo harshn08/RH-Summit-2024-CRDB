@@ -16,6 +16,7 @@ IMPORTANT: Once the showroom guide is created, please delete the file and remove
 |===
 |SR No.| Variable Name| Variable Value
 |{counter:node} | openshift_console_url | {openshift_console_url}
+|{counter:node} | openshift_api_server_url | {openshift_api_server_url}
 |{counter:node} |user_namespace | {user_namespace}
 |{counter:node} |user | {user}
 |{counter:node} | password | {password}
