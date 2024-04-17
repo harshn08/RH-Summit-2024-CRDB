@@ -48,7 +48,7 @@ from the drop-down menu if it is not already selected.
 +
 image::../assets/images/choose-developer-perspective.png[]
 +
-* Then, make sure to select the `%user%-eda` from the drop-down menu labeled
+* Then, make sure to select the `{user}-eda` from the drop-down menu labeled
 _Project_ at the top-left.
 
 ## Fruit Shop Application
