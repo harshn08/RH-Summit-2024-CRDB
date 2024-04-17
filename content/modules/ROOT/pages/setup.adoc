@@ -1,3 +1,13 @@
+## Clone workshop assets from remote repository
+In the terminal window to the right, you will execute the command below to copy the workshop assets that you will use throughout the workshop
+
+. Clone workshop assets from remote repository
++
+[source,bash,role=execute]
+----
+git clone https://github.com/harshn08/RH-Summit-2024-Assets.git
+----
+
 ## OpenShift Logins
 In the terminal at the right, you will execute many of the command-line
 instructions required for this lab. However, you must first log-in to OpenShift
@@ -98,7 +108,7 @@ Database_ tile.
 +
 * Select the Provider Account called crdb-workshop-provider from the dropdown box
 +
-* From the list of available database instances select ‘cockroach-db-fruit’
+* From the list of available database instances select ‘cockroach-db-fruit-{guid}’
 +
 * Click the blue _Add to Topology_ button.
 +

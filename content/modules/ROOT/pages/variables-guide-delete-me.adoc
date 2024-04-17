@@ -19,6 +19,7 @@ IMPORTANT: Once the showroom guide is created, please delete the file and remove
 |{counter:node} | openshift_api_server_url | {openshift_api_server_url}
 |{counter:node} |user_namespace | {user_namespace}
 |{counter:node} |user | {user}
+|{counter:node} |guid | {guid}
 |{counter:node} | password | {password}
 |{counter:node} |gitea_console_url | {gitea_console_url}
 |{counter:node} |gitea_user | {gitea_user}
