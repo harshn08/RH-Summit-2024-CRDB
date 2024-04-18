@@ -97,8 +97,8 @@ tkn pipeline start build-and-deploy-ms \
 -p deployment-name-p=eda-producer-ms-ep \
 -p deployment-name-c=eda-consumer-ms-ep \
 -p git-url={gitea_console_url}/{user}/cockroach-kafka-eda.git \
--p IMAGE-P=image-registry.openshift-image-registry.svc:5000/%user%-eda/eda-ms-producer \
--p IMAGE-C=image-registry.openshift-image-registry.svc:5000/%user%-eda/eda-ms-consumer \
+-p IMAGE-P=image-registry.openshift-image-registry.svc:5000/{user}-eda/eda-ms-producer \
+-p IMAGE-C=image-registry.openshift-image-registry.svc:5000/{user}-eda/eda-ms-consumer \
 -p KAFKA_BROKER='crdb-cluster-kafka-bootstrap.crdb-kafka.svc.cluster.local:9092' \
 -p KAFKA_GROUP_ID={user}-groupid \
 -p KAFKA_TOPIC={user}-topic \

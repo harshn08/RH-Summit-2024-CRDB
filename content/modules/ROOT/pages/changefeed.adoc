@@ -69,7 +69,7 @@ bash script that will save you the trouble of lots of copying and pasting:
 
 [source,bash,role=execute]
 ----
-cat ~/assets/cockroach-changefeed.sh
+cat RH-Summit-2024-Assets/cockroach-changefeed.sh
 ----
 
 When you run the above scriptlet, the route and certificate details will be
@@ -78,7 +78,7 @@ shown.
 
 [source,bash,role=execute]
 ----
-bash ~/assets/cockroach-changefeed.sh
+bash RH-Summit-2024-Assets/cockroach-changefeed.sh
 ----
 
 If successful, you should see something like:
@@ -106,7 +106,7 @@ database using the service binding test script:
 
 [source,bash,role=execute]
 ----
-bash ~/assets/test-service-binding.sh
+bash RH-Summit-2024-Assets/test-service-binding.sh
 ----
 
 Once connected, the following SQL will tell you the status of any changefeed
