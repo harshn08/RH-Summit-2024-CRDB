@@ -123,9 +123,11 @@ Database_ tile.
 +
 * Select _CockroachDB Cloud_ tile and then click the blue _Add to Topology_ button.
 +
-* Select the Provider Account called crdb-workshop-provider from the dropdown box
+* Select the Provider Account called rhsummit-key-2024 from the dropdown box
 +
-* From the list of available database instances select ‘cockroach-db-fruit-{guid}’
+image::select-provider-account.png[]
++
+* From the list of available database instances select ‘cockroach-db-fruit’
 +
 * Click the blue _Add to Topology_ button.
 +

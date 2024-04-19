@@ -63,6 +63,14 @@ MIIFLTCCAxWgAwIBAgIUcFEfRknbqi5qbQnelpfNjKEQV4cwDQYJKoZIhvcNAQEN
 ----
 
 ## Set up the CockroachDB changefeed
+In this section, we will proceed to setup a changefeed for your CockroachDB table. Before we run the command to create the changefeed, we need to create a variable USERNAME whose value is {user}
+
+[source,bash,role=execute,subs="attributes"]
+----
+export USERNAME={user}
+echo $USERNAME
+----
+
 Setting up the changefeed for your CockroachDB Cloud instance to talk to the
 Kafka broker is as easy as an SQL command. Fortunately, we have provided a small
 bash script that will save you the trouble of lots of copying and pasting:
