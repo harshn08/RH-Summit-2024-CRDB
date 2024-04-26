@@ -7,7 +7,7 @@ Module 1: Setting up the Application with CockroachDB
 
 Module 2: Setting up Kafka
 
-Module 3: Configuring the changefeed for CockroachDB
+Module 3: Configuring the Changefeed
 
 Module 4: Setup OpenShift Pipelines
 
