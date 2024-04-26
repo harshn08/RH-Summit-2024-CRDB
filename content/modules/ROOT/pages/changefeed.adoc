@@ -36,7 +36,7 @@ or de-encrypting
 
 ## Obtaining the TLS certificate
 CockroachDB, like most TLS-enabled applications, needs the certificate in order
-to properly communicate. 
+to properly communicate.
 
 While you could also find the certificate by digging in the OpenShift web
 console, it's fairly quick to do it via the CLI:

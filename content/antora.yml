@@ -20,3 +20,13 @@ asciidoc:
       text: Red Hat
     - url: https://www.redhat.com/en/summit
       text: Summit
+    console_url: "https://console-openshift-console.apps.cluster-v229z.dynamic.redhatworkshops.io"
+    gitea_console_url: "https://gitea-gitea.apps.cluster-v229z.dynamic.redhatworkshops.io"
+    gitea_password: "openshift"
+    gitea_user: "user1"
+    login_command: "oc login --insecure-skip-tls-verify=false -u user1 -p ShNmB6ZUvqH2jOwV https://api.cluster-v229z.dynamic.redhatworkshops.io:6443"
+    openshift_cluster_ingress_domain: "apps.cluster-v229z.dynamic.redhatworkshops.io"
+    openshift_console_url: "https://console-openshift-console.apps.cluster-v229z.dynamic.redhatworkshops.io"
+    password: "ShNmB6ZUvqH2jOwV"
+    user: "user1"
+    user_namespace: "user1-eda"
